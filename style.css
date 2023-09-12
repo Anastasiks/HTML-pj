@@ -18,4 +18,8 @@ body {
 }
 .pic {
     margin-left: 150px;
+    margin-top: -20px;
+}
+p{
+    margin-top: -2px;
 }
