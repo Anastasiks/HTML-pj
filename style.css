@@ -1,0 +1,21 @@
+h1 {
+    color:white;
+    font-size: 30px;
+}
+body {
+    background-color: #7c73aa;
+    margin-top: -10px;
+}
+.title {
+    color:#039;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.vid  {
+    color:blue;
+    font-size: 23px;
+    margin-left: 150px;
+}
+.pic {
+    margin-left: 150px;
+}
