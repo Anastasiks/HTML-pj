@@ -1,56 +1,25 @@
-.avatar{
-  font-size: 20px;
-  background-color: #b6e5ff;
-  text-align: center;
-  margin-right: 5px;
-  width: 25%;
-  padding-bottom: 50px;
-  color:#4657e9;
+h1 {
+    color:white;
+    font-size: 30px;
 }
-.vk{
-  font-weight: bolder;
-  font-size: 50px;
-  background-color: #b6e5ff;
-  text-align: center;
-  padding-bottom: 60px;
-  color:#4657e9;
+body {
+    background-color: #7c73aa;
+    margin-top: -10px;
 }
-.stena{
-  background-color: #b6e5ff;
-  text-align: center;
-  padding-bottom: 50px;
-  margin-top: 5px;
-  color:#4657e9;
+.title {
+    color:#039;
+    font-size: 23px;
+    font-weight: bolder;
 }
-.container{
-  display: flex;
-  background-color: black;
+.vid  {
+    color:blue;
+    font-size: 23px;
+    margin-left: 150px;
 }
-.block1{
-  width: 72%;
+.pic {
+    margin-left: 150px;
+    margin-top: -20px;
 }
-.dr{
-  width: 72%;
-  margin-top: 5px;
-  display: flex;
-  flex-direction: row;
-  color:#4657e9;
-}
-.class1{
-  background-color: #b6e5ff;
-  text-align: center;
-  margin-right: 5px;
-  padding-right: 19.7%;
-  padding-bottom: 70px;
-  color:#4657e9;
-}
-.container3{
-    background-color: #b6e5ff;
-    margin-top: 5px;
-    margin-left: 158px;
-    height: 200px;
-    width: 72%;
-}
-.big{
-  background-color: black;
+p{
+    margin-top: -2px;
 }
