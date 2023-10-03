@@ -15,6 +15,7 @@ button{
   border-radius: 3px;
   cursor: pointer;
   text-align: center;
+  color: white;
 }
 span{
   text-align: center;
@@ -25,4 +26,4 @@ h1 {margin-top: -10px;}
 p1{margin-top: -20px;
   display: inline-block;
   transform: scaleX(0.9);}
-.money{margin-top: 10px;} 
+.money{margin-top: 10px;}
