@@ -1,11 +1,16 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: white;
+  background-color: lightgrey;
   margin:0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+.main{
+  background-color: white;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 button{
   background-color: green;
