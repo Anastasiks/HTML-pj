@@ -1,34 +1,89 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: lightgrey;
-  margin:0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 .main{
-  background-color: white;
-  margin-right: 200px;
-  margin-left: 200px;
+  width: 1000px;
+  margin: auto;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 11%, rgba(45,161,185,1) 100%);
+
 }
-button{
-  background-color: green;
-  height: 30px;
-  width: 70px;
-  border: none;
-  border-radius: 3px;
+.menu{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
   cursor: pointer;
-  text-align: center;
-  color: white;
 }
-span{
-  text-align: center;
-  color: #1acb1a;
+
+.but{
+  height: 40px;
+  margin: 5px;
+  border-radius: 18px;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.but:hover{
+  transform: scale(1.05);
+  transition: transform 1.0s;
+}
+.text_1{
+  font-size: 25px;
   font-weight: bolder;
+  margin-left: 5px;
+  margin-top: 30px;
 }
+.descrip{
+  font-size: 15px;
+  text-align: left;
+  width: 990px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 28px;
+  margin-top: 40px;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
 h1 {margin-top: -10px;}
-p1{margin-top: -20px;
-  display: inline-block;
-  transform: scaleX(0.9);}
-.money{margin-top: 10px;}
+.main_2{
+  background-color: white;
+}
+.block_tel{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+.new{
+  border-radius: 20px;
+  background: rgb(251,251,251);
+background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 75%, rgba(9,9,121,0.3701855742296919) 100%);
+  text-align: center;
+  margin-right:10px;
+}
+.rub{
+  font-size:24px;
+  font-weight: bold;
+
+}
+.text_iphone1{
+  font-weight: bold;
+  margin-right: 60px;
+}
+.text_iphone{
+  font-weight: bold;}
+.buy{
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #090979;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.buy:hover{
+  transform: scale(1.1);
+  transition: transform 1.0s;
+}
+img{
+  margin-top: 20px;
+}
