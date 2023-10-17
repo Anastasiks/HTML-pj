@@ -18,7 +18,7 @@ p{
 .knopka{
   background-color: #0fc3f0;
   height: 30px;
-  width: 127px;
+  width: 200px;
   margin: 15px;
   border-style: solid;
   border-width: 1px;
@@ -28,12 +28,12 @@ p{
 .kn{
   text-align: center;
 }
-.pas{
-  margin-top: 10px;
+.telefon{
   width: 250px;
   height: 20px;
 }
 .email{
+  margin-top: 10px;
   width: 250px;
   height: 20px;
 }

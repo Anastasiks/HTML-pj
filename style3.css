@@ -1,5 +1,5 @@
 .main1{
-  height: 250px;
+  height: 500px;
   width: 320px;
   background-color: #39f0f3;
   border-style: solid;
@@ -18,22 +18,47 @@ p{
 .knopka{
   background-color: #0fc3f0;
   height: 30px;
-  width: 127px;
-  margin: 15px;
+  width: 200px;
   border-style: solid;
   border-width: 1px;
   border-radius: 15px;
   border-color: black;
+  margin-top: 30px;
 }
 .kn{
   text-align: center;
 }
-.pas{
-  margin-top: 10px;
+.family1{
   width: 250px;
   height: 20px;
 }
-.email{
+.family2{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family3{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family4{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family5{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family6{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family7{
+  margin-top: 15px;
   width: 250px;
   height: 20px;
 }
