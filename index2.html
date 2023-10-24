@@ -6,19 +6,24 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style2.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-  <div class=main1>
-    <h3>Изменение пароля</h3>
-
-    <div class="dannie">
-      <input class="telefon" type="tel" placeholder="Номер телефона">
-      <input class="email" type="email" placeholder="Электронная почта">
+  <div class="container">
+    <div class="main"><h1 class="kvadrat"> Игра в квадрат</h1>
+    <div class="main2">
+      <div class="pravila">
+        <h2>Правила:</h3>
+        <p class="clik">Кликать квадрат</p>
+        <p class="clik">Делать дз</p>
+      </div>
+      <div class="game">
+      <div class="kvadrat1" id="kvadrat1" onclick="funk(this.id)"></div>
+      </div>
+    </div>
     </div>
 
-    <div class="kn">
-      <a href="index4.html"><button class="knopka"> Изменение пароля </button></a>
-
+  </div>
 </body>
 </html>

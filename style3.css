@@ -1,64 +1,50 @@
-.main1{
-  height: 500px;
-  width: 320px;
-  background-color: #39f0f3;
-  border-style: solid;
-  border-width: 3px;
+body {
+  background-color: black;
+  height: 690px;
+  width: 1470px;
 }
-h3{
+.container{
   text-align: center;
+  margin: 10px;
+  height: 690px;
+  background-color: #ded9d9;
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
-p{
-  margin-left: 30px;
+.kvadrat{
   font-weight: bolder;
-}
-.dannie{
   text-align: center;
 }
-.knopka{
-  background-color: #0fc3f0;
-  height: 30px;
-  width: 200px;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 15px;
-  border-color: black;
-  margin-top: 30px;
+.block_1{
+  width: 1000px;
+  margin-left: 270px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.kn{
-  text-align: center;
+.block_2{
+  width: 1000px;
+  margin-left: 270px;
+  margin-top: 50px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.family1{
-  width: 250px;
-  height: 20px;
+h2{
+  margin-left: 10px;
+  text-align: left;
+  font-size: 30px;
 }
-.family2{
-  margin-top: 15px;
-  width: 250px;
-  height: 20px;
+
+.b{
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  height: 150px;
+  width: 240px;
 }
-.family3{
-  margin-top: 15px;
-  width: 250px;
-  height: 20px;
-}
-.family4{
-  margin-top: 15px;
-  width: 250px;
-  height: 20px;
-}
-.family5{
-  margin-top: 15px;
-  width: 250px;
-  height: 20px;
-}
-.family6{
-  margin-top: 15px;
-  width: 250px;
-  height: 20px;
-}
-.family7{
-  margin-top: 15px;
-  width: 250px;
-  height: 20px;
+
+.text{
+  display: none;
+  font-size: 20px;
 }

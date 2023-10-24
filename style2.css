@@ -1,39 +1,51 @@
-.main1{
-  height: 250px;
-  width: 320px;
-  background-color: #39f0f3;
-  border-style: solid;
-  border-width: 3px;
+body {
+  background-color: black;
+  height: 690px;
+  width: 1470px;
 }
-h3{
+.container{
+  margin: 10px;
+  height: 690px;
+  background-color: #ded9d9;
+  display:grid;
+  grid-template-rows: 1fr 4fr;
+}
+.kvadrat{
   text-align: center;
+}
+.main2{
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+}
+.game{
+  height: 570px;
+  width: 885px;
+  margin-left: 30px;
+  background-color: #a2a0a0;
+}
+.pravila{
+  height: 570px;
+  width: 480px;
+  margin-left: 30px;
+  background-color: #a2a0a0;
+}
+h2{
+  margin-left: 10px;
+  text-align: left;
+  font-size: 30px;
 }
 p{
-  margin-left: 30px;
   font-weight: bolder;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 20px;
 }
-.dannie{
-  text-align: center;
+.kvadrat1{
+  position: absolute;
+  background-color: #f980f9;
+  height: 70px;
+  width: 70px;
 }
-.knopka{
-  background-color: #0fc3f0;
-  height: 30px;
-  width: 200px;
-  margin: 15px;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 15px;
-  border-color: black;
-}
-.kn{
-  text-align: center;
-}
-.telefon{
-  width: 250px;
-  height: 20px;
-}
-.email{
-  margin-top: 10px;
-  width: 250px;
-  height: 20px;
+.game{
+  position: relative;
 }
