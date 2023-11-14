@@ -1,18 +1,35 @@
-let a = 0
-function funk(id) {
-    a ++;
-    let b = document.getElementById(id);
-    let max_width = b.parentElement.clientWidth;
-    let max_height = b.parentElement.clientHeight;
-    b.style.top = Math.floor(Math.random() * (max_height - b.clientHeight)) + 'px';
-    b.style.left = Math.floor(Math.random() * (max_width - b.clientWidth)) + 'px';
-    if (a % 3 == 0){
-        b.style.backgroundColor = "pink"
-    }
-    else if (a % 3 == 1){
-        b.style.backgroundColor = "lightgreen"
-    }
-    else if (a % 3 == 2){
-        b.style.backgroundColor = "lightblue"
-    }
-}
+function func(){
+    document.getElementById("pop_up").style.display = "grid";
+    const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML=css;
+  
+    addCSS(".main{ filter: blur(10px); }")
+  };
+  function back(){
+    document.getElementById("pop_up").style.display = "none";
+    const addCSS = css => document.head.appendChild(document.createElement("style")).innerHTML=css;
+  
+    addCSS(".main{ filter: blur(0px); }")
+  };
+  
+  function ChangeTheme(){
+      var link = document.getElementById("theme-link");
+      let lightTheme = "light.css";
+      let darkTheme = "dark.css";
+    
+  
+      var currTheme = link.getAttribute("href");
+  
+  
+      if(currTheme == lightTheme)
+      {
+        currTheme = darkTheme;
+  
+      }
+      else
+      {    
+        currTheme = lightTheme;
+  
+      }
+  
+      link.setAttribute("href", currTheme);
+  };

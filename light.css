@@ -1,0 +1,35 @@
+.main{
+    background: rgb(242,249,249);
+    background: linear-gradient(0deg, rgba(242,249,249,1) 30%, rgba(113,252,160,1) 91%);
+  }
+  .block{
+    background: #53f589;
+  }
+  .block_3{
+    background: #53f589;
+  }
+  .block_4{
+    background: #53f589;
+  }
+  .block_5{
+    background: #53f589;
+  }
+  .mainpopup{
+    background: rgb(242,249,249);
+    background: linear-gradient(0deg, rgba(242,249,249,1) 30%, rgba(113,252,160,1) 91%);
+  }
+  .butpopup{
+    background: #53f589;
+  }
+  .blockpopup{
+    background: #53f589;
+  }
+  .block2popup{
+    background: #53f589;
+  }
+  img {
+    filter: brightness(100%);
+  }
+  .pb{
+    background: #aef9c7;
+  }

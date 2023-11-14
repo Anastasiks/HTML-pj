@@ -6,24 +6,79 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style2.css" rel="stylesheet" type="text/css" />
+  <link href="light.css" rel="stylesheet" type="text/css" id="theme-link" />
   <script src="script.js" defer></script>
 </head>
 
 <body>
-  <div class="container">
-    <div class="main"><h1 class="kvadrat"> Игра в квадрат</h1>
-    <div class="main2">
-      <div class="pravila">
-        <h2>Правила:</h3>
-        <p class="clik">Кликать квадрат</p>
-        <p class="clik">Делать дз</p>
-      </div>
-      <div class="game">
-      <div class="kvadrat1" id="kvadrat1" onclick="funk(this.id)"></div>
-      </div>
-    </div>
-    </div>
-
+<div class="main">
+  <div class="left">
+    <img src="menu.png" class= "menu_to" height=25px width=25px>
   </div>
+
+  <div class="right">
+    <div class="men_u">
+      <div class="tv"><p>Новости</p></div>
+      <div class="perekl" onclick="ChangeTheme()"><button class="pb">Переключить тему</button></div>
+      <div class="akk" onclick="func()"><p>Профиль </p></div>
+    </div>
+    <div class="container_block">
+      <div class="block">Акции дня</div>
+      <div class="block">Новинки</div>
+      <div class="block">Новогоднее</div>
+      <div class="block">В подарок</div>
+    </div>
+    <div class="block_2"><img src="https://www.gravescountyhealthdepartment.com/images/content/headers/education/diabetes-1.jpg" class="prod" height=100px width=450px></div>
+    <div class="container_block3">
+      <div class="block_3">Овощи</div>
+      <div class="block_3">Фрукты</div>
+      <div class="block_3">Хлеб</div>
+      <div class="block_3">Сладкое</div>
+    </div>
+    <div class="filter">
+      <div class="class_filter"><p>Фильтр</p></div>
+      <div> <select class="block_4">
+          <option value="frut">По цене</option>
+          <option value="frut">По категории</option>
+          <option value="frut">По популярности</option>
+        </select>
+      </div>
+    </div>
+    <div class="container_block5">
+      <div class="block_5"><img src="https://fikiwiki.com/uploads/posts/2022-02/1644930992_1-fikiwiki-com-p-yabloko-krasivie-kartinki-1.jpg" height=110px width=132px></div>
+      <div class="block_5"><img src="https://rosspectr.ru/wp-content/uploads/1/2/0/1202efb7172fb79172a681c2d0123553.jpeg" height=110px width=132px></div>
+      <div class="block_5"><img src="https://fikiwiki.com/uploads/posts/2022-02/1645052523_1-fikiwiki-com-p-kartinki-banani-1.jpg" height=110px width=132px></div>
+    </div>
+    <div class="container_block6">
+      <div class="block_5"><img src="https://lafoy.ru/photo_b/foto-1200-0.jpg" height=110px width=132px></div>
+      <div class="block_5"><img src="https://klike.net/uploads/posts/2023-02/1677131335_3-27.jpg" height=110px width=132px><</div>
+      <div class="block_5"><img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614550045_77-p-morkov-na-belom-fone-87.jpg" height=110px width=132px><</div>
+    </div>
+  </div>
+  <div class=riright></div>
+</div> 
+
+
+<div class="mainpopup" id="pop_up">
+  <div class="container_1popup">
+    <p class="cabpopup">Личный кабинет</p>
+  </div>
+  <div class="container_2popup">
+    <div class="leftpopup"><img src="https://static.tildacdn.com/tild6563-3036-4430-a533-363761306639/img_529937.png" class= "fotopopup" height=120px width=100px></div>
+    <div class="rightpopup">
+      <div class="blockpopup">Имя</div>
+      <div class="blockpopup">Фамилия</div>
+      <div class="blockpopup">Отчество</div>
+      <div class="blockpopup">Город</div>
+    </div>
+  </div>
+  <div class="container_3popup">
+    <div class="block2popup">История Покупок</div>
+    <div class="block2popup">Новинки</div>
+    <div class="block2popup">Корзина</div>
+  </div>
+  <div class="container_4popup">
+    <button class="butpopup" onclick="back()">Назад</button>
+  </div>
+</div> 
 </body>
-</html>
