@@ -1,29 +1,41 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+
+  <title>Document</title>
 </head>
-
 <body>
-  <div class=main1>
-    <h3>Введите данные для входа</h3>
-    <p>Вход</p>
+  <div class="main">
+    <div class="doska">
+      <div class="left">
+        <h1 class="dva">Двоечники</h1>
+        <div id="spisok">
 
-    <div class="dannie">
-      <input class="email" type="email" placeholder="Логин">
-      <input class="pas" type="password" placeholder="Пароль">
+        </div>
+      </div>
+      <div class="neyt">
+        <button id="btn_1" onclick="Zam()">>></button>
+        <button id="btn_2" onclick="Zam_2()" ><<</button>
+      </div>
+
+      <div class="right">
+        <h1 class="pyt">Отличники</h1>
+        <div id="spisok_right">
+        </div>
+      </div>
+    </div>
+    <div id="menu">
+      <div class="add_item_menu_text"></div>
+      <h3 class="new_people">Добавить нового ученика:</h3>
+      <input id="add_name_menu" type="text" placeholder="фамилия и имя">
+      <input id="pyt_dva" type="text" placeholder="отличник/двоечник">
+      <button id="add_btn_menu">Добавить</button>
     </div>
 
-    <div class="kn">
-      <a href="index2.html"><button class="knopka"> Забыли пароль</button></a>
-      <a href="index3.html"><button class="knopka"> Регистрация </button></a>
-    </div>
-    <div class="vxod">
-      <a href="index4.html"><a href="index2.html"><button class="knopka_2"> Вход </button></a>
-    </div>
   </div>
 </body>
+</html>
