@@ -1,0 +1,64 @@
+.main1{
+  height: 500px;
+  width: 320px;
+  background-color: #39f0f3;
+  border-style: solid;
+  border-width: 3px;
+}
+h3{
+  text-align: center;
+}
+p{
+  margin-left: 30px;
+}
+.dannie{
+  font-weight: bolder;
+  text-align: center;
+}
+.knopka{
+  background-color: #0fc3f0;
+  height: 30px;
+  width: 200px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: black;
+  margin-top: 30px;
+}
+.kn{
+  text-align: center;
+}
+.family1{
+  width: 250px;
+  height: 20px;
+}
+.family2{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family3{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family4{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family5{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family6{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}
+.family7{
+  margin-top: 15px;
+  width: 250px;
+  height: 20px;
+}

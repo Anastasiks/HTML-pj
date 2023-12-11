@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"/>
+    <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
+</head>
+
+<body>
+  <div class="main1">
+    <h3>Введите данные для входа</h3>
+    <p>Вход</p>
+
+    <div class="dannie">
+      <input class="email" type="email" placeholder="Логин">
+      <input class="pas" type="password" placeholder="Пароль">
+    </div>
+
+    <div class="kn">
+      <a href="/"><button class="knopka"> Забыли пароль</button></a>
+      <a href="/registration"><button class="knopka"> Регистрация </button></a>
+    </div>
+    <div class="vxod">
+      <a href="/about"><button class="knopka_2"> Вход </button></a>
+    </div>
+  </div>
+</body>

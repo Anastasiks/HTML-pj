@@ -1,0 +1,56 @@
+.main1{
+    height: 250px;
+    width: 320px;
+    background-color: #0fc3f0;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+  }
+  h3{
+    text-align: center;
+  }
+  p{
+    margin-left: 30px;
+    font-weight: bolder;
+  }
+  .dannie{
+    text-align: center;
+  }
+  .knopka{
+    background-color: #39f0f3;
+    height: 30px;
+    width: 127px;
+    margin: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: black;
+  }
+  .kn{
+    text-align: center;
+  }
+  .pas{
+    margin-top: 10px;
+    width: 250px;
+    height: 22px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+  }
+  .email{
+    width: 250px;
+    height: 22px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+  }
+  .knopka_2{
+    margin-left: 97px;
+    background-color: #39f0f3;
+    height: 30px;
+    width: 127px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: black;
+  }

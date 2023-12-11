@@ -1,0 +1,88 @@
+.main{
+    margin: auto;
+    background: black;
+    height: 1300px;
+    display:grid;
+    grid-template-rows: 1fr 6fr 12fr;
+}
+.n{
+    margin:auto;
+    text-align: center;
+    width: 600px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.zag{
+    text-align: center;
+}
+.block_1{
+    height: 300px;
+    width: 300px;
+    background: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.block_2{
+    margin: 10px;
+}
+.verx{
+    background-color: white;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+}
+.bl{
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+}
+
+.black{
+    background: black;
+}
+.left{
+    background: grey;
+    width: 600px;
+}
+.right{
+    margin-top: 20px;
+    background: grey;
+    width: 600px;
+}
+.knopka{
+    background: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+.block_3{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.b{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 580px;
+    height: 30px;
+    background: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    text-align: left;
+}
+.f{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.text{
+    margin-top: 20px;
+    width: 600px;
+    background: white;
+    margin:auto;
+}

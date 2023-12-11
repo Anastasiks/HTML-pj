@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+    <link type="text/css" href="{{ url_for('static', filename='css/style3.css') }}" rel="stylesheet"/>
+</head>
+<style>
+    .round {
+     border-radius: 10px; /* Радиус скругления */
+     border: 3px solid grey; /* Параметры рамки */
+    }
+   </style>
+<body>
+    <div class="main">
+        <div class="text">
+            <div class="verx">
+                <div class="black"></div>
+                <div class="bl">
+                    <a href="/login"><div><button class="knopka">Войти</button></div></a>
+                    <a href="/registration"><div><button class="knopka"> Регистрация </button></div></a>
+                </div>
+            </div>
+            <div class="left">
+                <h1 class="zag">Интерактивная карта ВДНХ</h1>
+                <div class="n">
+                    <div class="block_1">
+                        <h4 class="kart_info">Как пользоваться картой</h4>
+                        <p>Наш сервис поможет регистрироваться на карте ВДНХ и постоить ортимальный путь к основным локациям выставки</p>
+                        <p>Изучай готовые маршруты, используя поиск по карте или построй собственные треки к интересующим тебя местам.</p>
+                        <p>Чтобы сохранить маршрут в избранное, пройди регистрацию</p>
+                    </div>
+                    <div class="block_2">
+                        <img src="https://sportishka.com/uploads/posts/2022-04/1650696599_4-sportishka-com-p-vdnkh-moskva-krasivo-foto-4.jpg" height=300px width=250px class="round">
+                    </div>
+                </div>
+
+            </div>
+            <div class="right">
+                <h1 class="zag">Выбрать объекты на карте</h1>
+                <div class="block_3">
+                    <button class="b">Поиск</button>
+                    <button class="b">Построить маршрут</button>
+                    <button class="b">Достопримечательности на карте ВДНХ</button>
+                    <button class="b">Маршрут 1</button>
+                    <button class="b">Маршрут 2</button>
+                    <button class="b">Маршрут 3</button>
+                </div>
+                <div class="f"><img src="http://www.aikidoka.ru/uploads/posts/2010-09/1283344649_shemamal.jpg" class="round" width=580px></div>
+            </div>
+        </div>
+    </div>
+</body>
