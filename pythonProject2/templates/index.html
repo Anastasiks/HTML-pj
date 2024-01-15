@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link type="text/css" href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class="main">
+    <form method="post">
+      <div class="famil">
+        <p class="f">ФИО:</p>
+        <input name="name" class="name" placeholder="Имя и Фамилия"/>
+      </div>
+      <div class="clas">
+        <p class="f">Класс:</p>
+        <div class="kl">
+          <div class="r">
+            <input type="radio" id="contactChoice1" name="con_1" value="cl_1" />
+            <label for="contactChoice1">10И</label>
+          </div>
+          <div class="r">
+            <input type="radio" id="contactChoice2" name="con_2" value="cl_2" />
+            <label for="contactChoice2">10Т</label>
+          </div>
+        </div>
+      </div>
+            <button class="button">Дальше >>></button>
+    </form>
+</div>
+</body>
