@@ -1,22 +1,38 @@
-body{
-  background-color: rgb(193, 189, 189);
+.main{
+  margin: auto;
+  height: 400px;
+  width: 600px;
+  background-color: rgb(175, 174, 174);
+  text-align: center;
+  color: white
 }
-.block{
-  display: flex;
-  flex-direction: row;
+.img{
+  color: white;
+  text-align: center;
+  margin: auto;
 }
 .left{
-  margin-top: 10px;
-  margin-left: 20px;
+  display:flex;
+  flex-direction: column;
 }
-.zagolovok{
-  text-align: center;
+.right{
+  margin-top: 30px;
+  margin-right: 20px;
+  display:flex;
+  flex-direction: column;
 }
-.button{
-  text-align: center;
-  margin-left: 1300px;
+.blocks{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+}
+.b{
+  margin:auto;
   border-style: solid;
-  border-radius: 10px;
-  margin-top: 150px;
-  width: 100px;
+  border-radius: 5px;
+  margin-top: 15px;
+  height: 40px;
+  width: 150px;
+  margin-top: 80px;
+  background-color: grey;
+  color:white;
 }
